@@ -210,3 +210,55 @@ text-wrap: pretty;
     font-weight: bold;
     color: #85463d;
 }
+
+@media screen and (max-width: 600px) {
+
+
+#container{
+    max-width: 300px;
+}
+
+#container img{
+    width: 250px;
+    height: 100px;
+}
+
+#container .titulo{
+    
+    font-size: 25px;
+    
+}
+
+#container .text{
+font-size: 10px;
+}
+.preparation h5{
+    font-size: 14px;
+}
+.preparation ul li{
+    font-size: 12px;
+}
+.ingredients h5{
+    font-size: 18px;
+}
+
+.ingredients ul li{
+    font-size: 12px;
+}
+.instructions h5{
+    font-size: 18px;
+}
+.instructions ol li{
+    font-size: 12px;
+}
+.nutrition h5{
+    font-size: 18px;
+}
+.nutrition p{
+    font-size: 12px;
+}
+
+.nutrition table, th, td{
+    font-size: 12px;
+
+}
